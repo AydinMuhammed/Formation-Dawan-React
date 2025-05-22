@@ -56,7 +56,7 @@ export default function Articles() {
       <h1> Derniers articles disponible</h1>
 
       <main>
-        {articles.map((article)=> <Article key={article.id} title={article.title} text={article.body}/>)} 
+        {articles.map((article)=> <Article key={article.id} id={article.id} title={article.title} text={article.body}/>)}
         
       </main>
     

@@ -14,6 +14,9 @@ export default function NavBar() {
         <li>
           <NavLink to="/home">Home-Products</NavLink>
         </li>
+        <li>
+          <NavLink to="/articles-selectionnes">Articles Sélectionnés</NavLink>
+        </li>
       </ul>
     </nav>
   );
