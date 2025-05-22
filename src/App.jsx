@@ -5,6 +5,7 @@ import UncontrolledForm from './components/UncontrolledForm';
 import Effect from './components/Effect';
 import Home from './components/Home';
 import Meteo from './components/Meteo';
+import Counter from './components/Counter';
 
 function App() {
  
@@ -28,6 +29,9 @@ function App() {
 
       <h2>Meteo</h2>
       <Meteo/>
+
+      <h2>Counter</h2>
+      <Counter/>
     </>
 )
 }
